@@ -19,6 +19,15 @@ your Blesta installation path.
     /var/www/html/blesta/components/gateways/nonmerchant/duitku/
     ```
 
+    But before upload must be run this :
+    ```
+    composer install
+    ```
+    Add this code into duitku.php
+    ```
+    require_once dirname(__FILE__) . DS . 'vendor' . DS . 'autoload.php';
+    ```
+
 3. Log in to your admin Blesta account and navigate to
 > Settings > Payment Gateways
 

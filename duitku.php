@@ -10,6 +10,8 @@
  * @license http://www.blesta.com/license/ The Blesta License Agreement
  * @link http://www.blesta.com/ Blesta
  */
+require_once dirname(__FILE__) . DS . 'vendor' . DS . 'autoload.php';
+
 class Duitku extends NonmerchantGateway
 {
     /**

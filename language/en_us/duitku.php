@@ -3,7 +3,7 @@
  * en_us language for the Duitku gateway.
  */
 // Basics
-$lang['Duitku.name'] = 'Duitku';
+$lang['Duitku.name'] = 'Duitku (IDR)';
 $lang['Duitku.description'] = 'Accept credit and debit cards, e-wallets, bank transfers, and send bulk payments via a single integration in Indonesia.';
 
 

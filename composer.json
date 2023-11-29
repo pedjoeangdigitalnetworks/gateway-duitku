@@ -12,5 +12,11 @@
             "name": "Phillips Data, Inc.",
             "homepage": "http://blesta.com"
         }
-    ]
+    ],
+    "config": {
+        "allow-plugins": {
+            "composer/installers": true,
+            "blesta/composer-installer": true
+        }
+    }
 }
